@@ -5,12 +5,13 @@ package SOLID.OC;
  */
 public class DBLogger implements ILogger {
 
+
     @Override
     public void log(String message) {
         saveToDB(message);
     }
 
-    private void saveToDB(String message){
+    private void saveToDB(String mess){
 
     }
 }

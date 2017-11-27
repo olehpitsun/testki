@@ -5,5 +5,5 @@ package SOLID.OC;
  */
 public interface ILogger {
 
-    public void log(String message);
+    void log(String message);
 }

@@ -5,5 +5,5 @@ package patterns.composite;
  */
 public interface IAlgorithm {
 
-    public void applyAlgorithm();
+    void applyAlgorithm();
 }
