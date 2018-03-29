@@ -22,15 +22,15 @@ public class Processor {
             long d1 = System.currentTimeMillis();
             Long result = bt.startTask();
             long d2 = System.currentTimeMillis();
-            System.out.println(result + ", Time 1:" + (d2 - d1));
-        }/*
+            System.out.println(result + ", Один потік: " + (d2 - d1));
+        }
         {
             BigTaskManyThreads bt = new BigTaskManyThreads();
             long d1 = System.currentTimeMillis();
             Long result = bt.startTask();
             long d2 = System.currentTimeMillis();
-            System.out.println(result + ", Time 2:" + (d2 - d1));
-        }*/
+            System.out.println(result + ", Багато потоків: " + (d2 - d1));
+        }
         System.out.println("Фініш");
 
     }
