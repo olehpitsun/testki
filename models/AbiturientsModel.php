@@ -26,6 +26,7 @@ class AbiturientsModel {
         $this->db->query('SELECT * FROM abiturients');
 
         $result = $this->db->resultSet();
+
         $number_of_result = $this->db->rowCount();
 
 
