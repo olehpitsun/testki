@@ -5,6 +5,7 @@ class AbiturientsModel {
 
     private $db;
 
+
     private $rowCount;
 
     public function __construct(){
