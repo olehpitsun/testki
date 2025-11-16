@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .main-div{
+            background-color: aqua;
+        }
+
+        #simple-id {
+            background-color: antiquewhite;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+<h1>Test</h1>
+
+<h2>Test</h2>
+<h6>Test</h6>
+
+<p>Simple text p</p>
+
+<div class="main-div">
+    <h2>Test</h2>
+    <p>Simple text p</p>
+</div>
+
+<div class="main-div">
+    <h2>Test3</h2>
+    <p>Simple text p 3</p>
+</div>
+
+<div id="simple-id" class="main-div">
+    <h2>Test 1</h2>
+    <p>Simple text p 1</p>
+</div>
+
+<div style="background-color:green; padding-top: 20px">
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+</div>
+
+<a href="https://ukr.net">
+    <img src="images/dogs.jpg" width="50%">
+</a>
+
+</body>
+</html>
+
+
+
